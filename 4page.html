@@ -1,67 +1,144 @@
 <!DOCTYPE html>
-<html>
-      <meta name="viewport"content=width=device-width,initial-scale=1.0">
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السياحة في السودان - Discover Sudan</title>
+    <style>
+        body {
+            background-color: rgb(240, 240, 224);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: right;
+            color: rgb(18, 100, 168);
+        }
 
-<h1 style="background-color: rgb(3, 132, 160); padding: 45px; text-align: left;">    
-    <img src="Flag_of_Sudan.svg.webp"alt="snfr" style="text-align: right;" width="70" height="50">
+        .header {
+            background-color: rgb(3, 132, 160);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-    <span style="color: rgb(242, 243, 247); font-size: 20px;">Discover</span>
-    <span style="color: rgb(247, 244, 244); font-size: 40px;">Sudan</span>
-</h1>
-<body style="background-color: rgb(240, 240, 224);">
-    <h1 style="color: rgb(18, 100, 168); font-size: 30px; text-align: right;">السياحة في السودان
-</h1>
-<hr size="2" color="black">
-  <p style="color: rgb(18, 100, 168); font-size: 20px; text-align: right;"> السياحة في السودان من أهم القطاعات الاقتصادية التي تسهم في تعزيز الاقتصاد الوطني، حيث يتميز السودان بتنوعه الثقافي والطبيعي والتاريخي. وتضم البلاد العديد من المعالم السياحية الرائعة مثل الأهرامات والمعابد القديمة والحدائق الطبيعية والشواطئ الجميلة. كما يمكن للزوار الاستمتاع بالأنشطة الترفيهية المختلفة مثل الرحلات الصحراوية والغوص وركوب القوارب. وتعد السياحة في السودان فرصة رائعة للتعرف على ثقافة البلاد وتاريخها العريق.>
+        .header-logo {
+            width: 60px;
+            height: auto;
+        }
 
-  </p>
-  <center>
-  <img src="se.jpg" alt="hg" width="800" height="300">
-  </center> 
-    <hr style="font-size: 2px;">
+        .header-text {
+            color: #ffffff;
+        }
 
-  <h3
-  
-  style="color: rgb(18, 100, 168); font-size: 20px; text-align: right;"> سياحة البراري
+        .header-text .discover {
+            font-size: 18px;
+        }
 
-</h3>
+        .header-text .sudan {
+            font-size: 32px;
+            font-weight: bold;
+        }
 
-  <p style="color: rgb(18, 100, 168); font-size: 20px; text-align: right;">اذا كنت من محبي الحيوانات والطبيعه والبريه فان محمية الدندر تقدم لك تجربه  ميزه في التعرف على اندر انواع الحيوانات البريه والعديد من اشكال الطيور المختلفه وهي مناسبه للذين يبحوثون عن متعه مشاهدة الطبيعه الخلابه </p>
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-  </p>
+        h1.main-title {
+            color: rgb(18, 100, 168);
+            font-size: 28px;
+            margin-top: 10px;
+        }
 
-  
+        h3.section-title {
+            color: rgb(18, 100, 168);
+            font-size: 22px;
+            margin-top: 30px;
+        }
 
-  
-  <center>
-  <img src="se4.jpg" alt="hg" width="800" height="300">
-  </center>
-    <hr style="font-size: 2px;">
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: rgb(18, 100, 168);
+        }
 
-  <h3 style="color: rgb(18, 100, 168);font-size: 20px;text-align: right;">مشاهده الاهرامات التاريخية</h3>
-  <center> <img src="hhhhhhhh.jpg" alt="fh"width="800" height="300"></center>
-  <p style="color: rgb(18, 100, 168);font-size: 20px;text-align: right;">يمتلك السودان اكبر عدد للاهرامات في العالم حيث تعد من اعظم الاثر عالميا بنيت على يد ملوك كوش القدماء تقع في منطقه مروي وتعتبر من اعظم الوجهات السياحه لمحبين الاثار والمناطق التاريخية
+        .responsive-img {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            display: block;
+            margin: 15px 0;
+        }
 
-  </p>
-  <hr style="font-size: 2px;">
-  <h3 style="color: rgb(18, 100, 168);font-size: 20px;text-align: right;">ملتقى النيلين</h3>
-  <center>
-    <img src="se2.jpg"alt="hfgf" width="800" height="300">
-</center>
-<p style="color: rgb(18, 100, 168);font-size: 20px;">تعد جزيره توتي من افضل الاماكن لرؤيه اطول نيل في العالم يلتقي باخيه في ظاهره علميه مذهلة حيث يقترن النيل الابيض مع الازرق  من غير ان يمتزجى  وتمثل جزيره توتي وجهة سياحية ممتازه للذين يرغبون في رويه طبيعه خضراء مفعمه بالحيويه مما تمتلكه من نشاطات مثل الصيد والسباحه ومشاهدة اطول نهر في العالم  </p>
-  <hr style="font-size: 2px;">
-    <h3 style="color: rgb(18, 100, 168);font-size: 20px;text-align: right;">شواطئ بورتسودان</h3>
-    <center>
-    <img src="se3.jpg"alt="hfgf" width="800" height="300">
-</center>
-<p style="color: rgb(18, 100, 168);font-size: 20px;">تعد شواطئ بورتسودان من أجمل الوجهات السياحية في السودان، حيث تتميز بمياه البحر الأحمر الصافية ورمالها الذهبية ومناظرها الطبيعية الخلابة. وهي المكان المثالي للاستمتاع بالسباحة والغوص والاسترخاء، لتمنح كل زائر تجربة لا تنسى وسط جمال الطبيعة.</p>
-    <hr style="font-size: 2px;">
-    <a href="index.html"><button style="background-color: rgb(21, 130, 155); color: rgb(221, 241, 220); padding: 10px 20px; border: none; border-radius: 5px;">back</button></a>
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 30px 0;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .btn-back {
+            background-color: rgb(3, 132, 160);
+            color: rgb(221, 241, 220);
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-text">
+            <span class="discover">Discover</span>
+            <span class="sudan">Sudan</span>
+        </div>
+        <img src="Flag_of_Sudan.svg.webp" alt="علم السودان" class="header-logo">
+    </div>
+
+    <div class="container">
+        <h1 class="main-title">السياحة في السودان</h1>
+        <p>السياحة في السودان من أهم القطاعات الاقتصادية التي تسهم في تعزيز الاقتصاد الوطني، حيث يتميز السودان بتنوعه الثقافي والطبيعي والتاريخي. وتضم البلاد العديد من المعالم السياحية الرائعة مثل الأهرامات والمعابد القديمة والحدائق الطبيعية والشواطئ الجميلة. كما يمكن للزوار الاستمتاع بالأنشطة الترفيهية المختلفة مثل الرحلات الصحراوية والغوص وركوب القوارب. وتعد السياحة في السودان فرصة رائعة للتعرف على ثقافة البلاد وتاريخها العريق.</p>
+
+        <img src="se.jpg" alt="السياحة في السودان" class="responsive-img">
+        <hr>
+
+        <h3 class="section-title">سياحة البراري</h3>
+        <p>إذا كنت من محبي الحيوانات والطبيعة والبرية، فإن محمية الدندر تقدم لك تجربة مميزة للتعرف على أندر أنواع الحيوانات البرية والعديد من أشكال الطيور المختلفة، وهي مناسبة للذين يبحثون عن متعة مشاهدة الطبيعة الخلابة.</p>
+        <img src="se4.jpg" alt="سياحة البراري" class="responsive-img">
+        <hr>
+
+        <h3 class="section-title">مشاهدة الأهرامات التاريخية</h3>
+        <p>يمتلك السودان أكبر عدد للأهرامات في العالم، حيث تعد من أعظم الآثار عالمياً والتي بنيت على يد ملوك كوش القدماء. تقع في منطقة مروي وتعتبر من أعظم الوجهات السياحية لمحي الآثار والمناطق التاريخية.</p>
+        <img src="hhhhhhhh.jpg" alt="أهرامات البجراوية" class="responsive-img">
+        <hr>
+
+        <h3 class="section-title">ملتقى النيلين</h3>
+        <p>تعد جزيرة توتي من أفضل الأماكن لرؤية أطول نهر في العالم يلتقي بأخيه في ظاهرة علمية مذهلة، حيث يقترن النيل الأبيض مع الأزرق من غير أن يمتزجا. وتمثل جزيرة توتي وجهة سياحية ممتازة للذين يرغبون في رؤية طبيعة خضراء مفعمة بالحيوية مع ممارسة أنشطة مثل الصيد والسباحة.</p>
+        <img src="se2.jpg" alt="ملتقى النيلين" class="responsive-img">
+        <hr>
+
+        <h3 class="section-title">شواطئ بورتسودان</h3>
+        <p>تعد شواطئ بورتسودان من أجمل الوجهات السياحية في السودان، حيث تتميز بمياه البحر الأحمر الصافية ورمالها الذهبية ومناظرها الطبيعية الخلابة. وهي المكان المثالي للاستمتاع بالسباحة والغوص والاسترخاء، لتمنح كل زائر تجربة لا تنسى وسط جمال الطبيعة.</p>
+        <img src="se3.jpg" alt="شواطئ بورتسودان" class="responsive-img">
+
+        <div class="btn-container">
+            <a href="index.html" class="btn-back">Back</a>
+        </div>
+    </div>
 
 </body>
 </html>
-
-
-
-
-

@@ -1,81 +1,160 @@
 <!DOCTYPE html>
-<html>
-      <meta name="viewport"content=width=device-width,initial-scale=1.0">
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الثقافة السودانية - Discover Sudan</title>
+    <style>
+        body {
+            background-color: rgb(240, 240, 224);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: right;
+            color: #222222;
+        }
 
-<h1 style="background-color: rgb(196, 10, 4); padding: 45px; text-align: left;">    
-    <img src="Flag_of_Sudan.svg.webp"alt="snfr" style="text-align: right;" width="70" height="50">
+        .header {
+            background-color: rgb(196, 10, 4);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-    <span style="color: rgb(242, 243, 247); font-size: 20px;">Discover</span>
-    <span style="color: rgb(247, 244, 244); font-size: 40px;">Sudan</span>
+        .header-logo {
+            width: 60px;
+            height: auto;
+        }
 
-</h1>
-            <body style="background-color:rgb(240, 240, 224);">
-<h1 style="color: rgb(197, 29, 10); font-size: 30px; text-align: right";>السودان</h1>
-<p style= "text-align:right;color: rgb(250, 1, 1);font-size:20px;"> 
-السُّودان (رسميًّا: جمهورية السودان)، هي دولة عربية تقع في شمال شرقي إفريقيا، تحدُّها مصر من الشمال، وليبيا من الشمال الغربي، وتشاد من الغرب، وجمهورية إفريقيا الوسطى من الجنوب الغربي، وجنوب السودان من الجنوب، وإثيوبيا من الجنوب الشرقي، وأريتريا من الشرق، والبحر الأحمر من الشمال الشرقي، يبلغ عدد سكان السودان نحو 50 مليون نسمة (تقدير 2024)[18] وتبلغ مساحتها 1,861,484 كيلومتر مربع (718,723 ميل مربع)[1]، مما يجعلها ثالثَ أكبر دولة من حيث المساحة في إفريقيا وفي العالم العربي. وكانت الأكبر في إفريقيا والعالم العربي حسب المساحة قبل انفصال جنوب السودان عام 2011.[19] يقسم نهر النيل أراضي السودان إلى شطرين شرقي وغربي وتقع العاصمةُ الخرطوم عند ملتقى النيلين الأزرق والأبيض رافدي النيل الرئيسَين. ويتوسط السودان حوض وادي النيل.[20]
-</p>
-<hr style="color: black;font-size: 2;">
+        .header-text {
+            color: #ffffff;
+        }
 
-            <body style="background-color:rgb(240, 240, 224);">
-<h1 style="color: rgb(197, 29, 10); font-size: 30px; text-align: right";>العادات والتقاليد السودانية</h1>
-<center><img src="th.png"alt="kjk" width="50%"hight="450"></center>
+        .header-text .discover {
+            font-size: 18px;
+        }
 
-</h1>
-<p style= "text-align:right;color: rgb(209, 9, 9);font-size:20px;">  يرتدي معظم السودانيين إما الملابس التقليدية أو الملابس الغربية. من الملابس التقليدية التي يرتديها الرجال السودانيون بشكل واسع هي الجلابية، وهي ثوب فضفاض بأكمام طويلة وبدون ياقة
+        .header-text .sudan {
+            font-size: 32px;
+            font-weight: bold;
+        }
 
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-امرأة سودانية مع علامات التجديل، ترتدي ثوبًا.
-، يصل إلى الكاحل، ومشترك أيضاً في مصر. غالباً ما تُرتدى الجلابية مع عمامة كبيرة وشال، ويمكن أن تكون الجلابية بيضاء أو ملونة أو مخططة، وتختلف أنواع الأقمشة في سمكها حسب فصل السنة والتفضيلات الشخصية.[1]
+        h1.main-title {
+            color: rgb(197, 29, 10);
+            font-size: 28px;
+            margin-top: 10px;
+        }
 
-اللباس الأكثر شيوعاً للنساء السودانيات هو الثوب، وينطق "التوب" باللهجة السودانية. التوب هو قطعة قماش طويلة، بيضاء أو ملونة، تلفها النساء حول ملابسهن الداخلية، وعادة ما يغطي الرأس والشعر.[2]
+        h3.section-title {
+            color: rgb(197, 29, 10);
+            font-size: 22px;
+            margin-top: 30px;
+        }
 
-</P>
-<p style= "text-align:right;color: rgb(250, 1, 1);font-size:20px;"> 
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
 
-</h1>
-<hr size="2" color="black">
-<h3 style="color: rgb(196, 4, 4);text-align: right;"></h3>
-<p style= "text-align:right;color: rgb(243, 5, 5);font-size:20px";> </p>
+        .responsive-img {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            display: block;
+            margin: 15px 0;
+        }
 
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 30px 0;
+        }
 
+        .link-card {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
 
-<center>
-  <img src="th1.png" alt="hg" width="50%" height="450">
-</center>
-  <hr style="font-size: 2px;">
+        .link-card a {
+            color: rgb(197, 29, 10);
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+        }
 
+        .btn-container {
+            text-align: center;
+            margin: 30px 0;
+        }
 
-</h1> 
-<h3 style="color: rgb(236, 7, 7); font-size: 30px; text-align: right;">رمضان في السودان</h3>
-<p style= "text-align:right;color: rgb(252, 8, 8);font-size:20px;">يكشف المجتمع السوداني خلال شهر رمضان عن عاداته الاصيلة وتقاليده الراسخة التي تجسد قيم المحبة والتواصل الاجتماعى وتنم عن التجانس بين افراده. يبدأ الاحتفال بشهر رمضان عند أهل السودان قبل مجيئه بفترة طويلة؛ فمع بداية شهر شعبان تنبعث من المنازل السودانية رائحة جميلة، هي رائحة (الأبري) أو (المديدة). يبلغ عدد سكان السودان (30) مليون نسمة تقريبًا بعد الانفصال الجنوبي، ونسبة المسلمين تصل إلى (96%)، يتكلمون أكثر من (110) لغة ولهجة محلية، ويستقبل أهل السودان شهر الخير بالفرح والسرور، ويهنئ الجميع بعضهم بعضًا بقدوم هذا الشهر المبارك، من عبارات التهنئة المتعارف عليها بينهم في هذه المناسبة قولهم: (رمضان كريم) وتكون الإجابة بالقول: (الله أكرم) أو: (الشهر مبارك عليكم) أو: (تصوموا وتفطروا على خير) .[1] ومما يلفت النظر عند أهل السودان أن ربّات البيوت اعتدن على تجديد وتغيير كل أواني المطبخ، احتفالاً وابتهاجًا بقدوم شهر رمضان. كما تبدأ المدافع في الانطلاق عند كل أذان مغرب، معلنة حلول موعد الإفطار، وقبل الفجر للتنبيه على الإمساك عن الطعام والشراب وسائر المفطرات. ومن المعتاد في هذا البلد تأخير أذان المغرب، وتقديم أذان الفجر، احتياطًا للصيام.[2]
+        .btn-back {
+            background-color: rgb(196, 10, 4);
+            color: rgb(221, 241, 220);
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
 
-</p>
-<center>
-  <img src="th3.png" alt="hg" width="50%" height="450">
-</center>
-  <hr style="font-size: 2px;">
+    <div class="header">
+        <div class="header-text">
+            <span class="discover">Discover</span>
+            <span class="sudan">Sudan</span>
+        </div>
+        <img src="Flag_of_Sudan.svg.webp" alt="علم السودان" class="header-logo">
+    </div>
 
-</p>
+    <div class="container">
+        <h1 class="main-title">جمهورية السودان</h1>
+        <p>السُّودان دولة عربية تقع في شمال شرقي إفريقيا، تحدُّها مصر من الشمال، وليبيا من الشمال الغربي، وتشاد من الغرب، وجمهورية إفريقيا الوسطى من الجنوب الغربي، وجنوب السودان من الجنوب، وإثيوبيا من الجنوب الشرقي، وأريتريا من الشرق، والبحر الأحمر من الشمال الشرقي. تبلغ مساحتها 1,861,484 كيلومتر مربع، مما يجعلها ثالثَ أكبر دولة من حيث المساحة في إفريقيا وفي العالم العربي. يقسم نهر النيل أراضي السودان إلى شطرين شرقي وغربي وتقع العاصمةُ الخرطوم عند ملتقى النيلين الأزرق والأبيض.</p>
+        
+        <hr>
 
-<h3 style="color: rgb(215, 6, 6); font-size: 30px; text-align: right";></h3>
-<p style= "text-align:right;color: rgb(250, 6, 6);font-size:20px";>الزواج في السودان يشمل عدة مناسبات وطقوس جرت العادة على إقامتها كلما حلت مناسبة الزواج السعيدة على إحدى الأسر السودانية، والعادات التي تم تداولها وتناقلها مثلها مثل غيرها من العادات السودانية الأخرى، في الغالب الأعم تختلف هذه الطقوس باختلاف المناطق والقبائل نظرا إلى أن السودان متعدد الأعراق والأجناس، بالإضافة إلى الأصول التي تنبع منها هذه العادات فمنها ما هو فرعوني كما في مناطق الشمال، ومنها ما هو أفريقي كلما تعمقنا جنوبا، وتظهر هذه العادات في السودان نظرا لاختلاط النسل العربي بالأفريقي.
+        <h1 class="main-title">العادات والتقاليد السودانية</h1>
+        <p>يرتدي معظم السودانيين إما الملابس التقليدية أو الملابس الغربية. من الملابس التقليدية التي يرتديها الرجال السودانيون بشكل واسع هي الجلابية، وهي ثوب فضفاض بأكمام طويلة وبدون ياقة يصل إلى الكاحل. غالباً ما تُرتدى الجلابية مع عمامة كبيرة وشال. اللباس الأكثر شيوعاً للنساء السودانيات هو الثوب ("التوب" باللهجة السودانية)، وهو قطعة قماش طويلة ملفوفة تغطي الجسد والرأس.</p>
+        <img src="th.png" alt="الزي التقليدي السوداني" class="responsive-img">
+        <img src="th1.png" alt="العادات السودانية" class="responsive-img">
+        <hr>
 
+        <h3 class="section-title">رمضان في السودان</h3>
+        <p>يكشف المجتمع السوداني خلال شهر رمضان عن عاداته الأصيلة وتقاليده الراسخة التي تجسد قيم المحبة والتواصل الاجتماعي. يبدأ الاستعداد قبل مجيئه بفترة طويلة؛ فمع بداية شعبان تنبعث من المنازل رائحة (الأبري) أو (المديدة). ويستقبل أهل السودان الشهر المبارك بالفرح والسرور وتبادل التهاني، مع إقامة الإفطارات الجماعية في الطرقات والميادين العامة.</p>
+        <img src="th3.png" alt="رمضان في السودان" class="responsive-img">
+        <hr>
 
-العديل والزين من طقوس العرس
-من العادات الأخرى المتعلقة بالزواج في السودان أن يقدم العريس لزوجته المال ويسمى المهر الذي ستنفقه على مصاريف الزفاف لشراء الثوب، وزيارة صالون التجميل، وما إلى ذلك، فعليه منحها المال حتى تتمكن من الاستعداد ليوم العرس، بالإضافة إلى ذلك، يقدم العريس في السودان لعروسه المجوهرات الذهبية كهدية قبل الزفاف، وتقوم بارتداء هذه المجوهرات الذهبية في يوم الزواج.</p>
-    <center>
-  <img src="th2.png" alt="hg" width="50%" height="450">
-</center>
-  <hr style="font-size: 2px;">
-  <center>  <a href="7page.html" style="color: firebrick;font-size: 30px;">آبرز الشخصيات</a>
-</center>
-<center>
-<img src="sh1.jpg"alt="hdh" width="50%" height="450">
-</center>
-<a href="index.html"><button style="background-color: rgb(245, 19, 3); color: rgb(221, 241, 220); padding: 10px 20px; border: none; border-radius: 5px;">back</button></a>
+        <h3 class="section-title">الزواج والطقوس السودانية</h3>
+        <p>الزواج في السودان يشمل عدة مناسبات وطقوس تعكس تنوع الثقافات والأعراق. وتتميز الأعراس السودانية بطقوس خاصة مثل (العديل والزين) وتجهيز العروس وتقديم المهر والمجوهرات الذهبية، وتختلف التفاصيل والتقاليد باختلاف المناطق والقبائل عبر ربوع السودان.</p>
+        <img src="th2.png" alt="طقوس الزواج السوداني" class="responsive-img">
+        <hr>
 
+        <div class="link-card">
+            <a href="7page.html">أبرز الشخصيات السودانية</a>
+            <img src="sh1.jpg" alt="أبرز الشخصيات" class="responsive-img">
+        </div>
 
-
+        <div class="btn-container">
+            <a href="index.html" class="btn-back">Back</a>
+        </div>
+    </div>
 
 </body>
 </html>

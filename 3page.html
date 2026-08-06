@@ -1,67 +1,148 @@
 <!DOCTYPE html>
-<html>
-      <meta name="viewport"content=width=device-width,initial-scale=1.0">
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الزراعة في السودان - Discover Sudan</title>
+    <style>
+        body {
+            background-color: rgb(240, 240, 224);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: right;
+            color: rgb(1, 27, 2);
+        }
 
-<h1 style="background-color: rgb(6, 75, 19); padding: 45px; text-align: left;">    
-    <img src="Flag_of_Sudan.svg.webp"alt="snfr" style="text-align: right;" width="70" height="50">
+        .header {
+            background-color: rgb(6, 75, 19);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-    <span style="color: rgb(242, 243, 247); font-size: 20px;">Discover</span>
-    <span style="color: rgb(247, 244, 244); font-size: 40px;">Sudan</span>
-</h1>
-            <body style="background-color:rgb(240, 240, 224);">
-<h1 style="color: rgb(1, 57, 1); font-size: 30px; text-align: right;">الزراعة في السودان
+        .header-logo {
+            width: 60px;
+            height: auto;
+        }
 
-</h1>
-<p style= "text-align:right;color: rgb(1, 27, 2);font-size:20px;"> افضل انواع الاستثمار في السودان هو الاستثمار في الزراعة بحيث يتميز السودان بتنوعه المناخي وارضيه الخصبه التي تصلح لزراعة العديد من المحاصيل المطلوبه عالميا توضح الصفحه اهم هذه المحاصيل وافضل اماكن لزراعتها في السودان بحيث تساعد المستثمرين الذين يرغبون في الاستمثار في الزراعة السودانيه في الحصول على افضل الخيارات بالنسبه لهم ولموقعهم في السودان
+        .header-text {
+            color: #ffffff;
+        }
 
-</P>
+        .header-text .discover {
+            font-size: 18px;
+        }
 
-</h1>
-<hr size="2" color="black">
-<center>
-  <img src="zra2.jpg" alt="hg" width="800" height="300">
-</center>
-  <hr style="font-size: 2px;">
+        .header-text .sudan {
+            font-size: 32px;
+            font-weight: bold;
+        }
 
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-</h1> 
-<h3 style="color: rgb(1, 57, 1); font-size: 30px; text-align: right;">زراعة القمح </h3>
-<p style= "text-align:right;color: rgb(1, 27, 2);font-size:20px;">يمكن القول بأن القمح هو من أهم المحاصيل الزراعيه التي تستهلك بكميات كبيره عالميا فبذلك يعد من افضل انواع الاستمثار بسبب الطلب العالي لديه كما يمكن زراعته بسهوله في السودان حيث تتوفر البيئه اللازمه والاراضي الخصبه لزراعته بالاخص قي ولايات مثل القضارف وولاية النيل الابيض ولايه كسلا 
+        h1.main-title {
+            color: rgb(1, 57, 1);
+            font-size: 28px;
+            margin-top: 10px;
+        }
 
-</p>
-<center>
-  <img src="3mk.jpg" alt="hg" width="800" height="300">
-</center>
-  <hr style="font-size: 2px;">
+        h3.section-title {
+            color: rgb(1, 57, 1);
+            font-size: 22px;
+            margin-top: 30px;
+        }
 
-<h3 style="color: rgb(1, 57, 1); font-size: 30px; text-align: right;">زراعة الذرة</h3>
-<p style= "text-align:right;color: rgb(1, 27, 2);font-size:20px;">يمكن القول بأن الذره هي ركيزه اساسية في استهلاك الانسان عالميا حيث اصبحت محصولا لايمكن الاستغناء عنه في العديد من الصناعات الغذائيه لذلك يعد من افضل انواع الاستمثار بسبب الطلب العالي لديه كما يمكن زراعته بسهوله في السودان حيث تتوفر البيئه اللازمه والاراضي الخصبه لزراعته بالاخص قي ولايات مثل القضارف وولاية النيل الابيض ولايه كسلا
-</p>
-<center>
-  <img src="zra.jpg" alt="hg" width="800" height="300">
-</center>   
-  <hr style="font-size: 2px;">
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
 
-<h3 style="color: rgb(1, 57, 1); font-size: 30px; text-align: right;">زراعة القطن</h3>
-<p style= "text-align:right;color: rgb(1, 27, 2);font-size:20px;">القطن او كما يسمى عالميا بالذهب الابيض هو من افضل المحاصيل التي يسهل زراعتها في السودان والتي تتميز بطلب عالي داخل السودان او خارجه وذلك يجعله يعد من افضل انواع العمله الصعبه ويمكن زراعه بسهوله في ولايات مثل الجزيره وولايه سنار  
-<center>
-  <img src="ktn.jpg" alt="hg" width="800" height="300">
-</center>
-  <hr style="font-size: 2px;">
+        .responsive-img {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            display: block;
+            margin: 15px 0;
+        }
 
-<h3 style="color: rgb(1, 57, 1); font-size: 30px; text-align: right;">زراعةالسمسم</h3>
-<p style= "text-align:right;color: rgb(1, 27, 2);font-size:20px;">يعد من افضل المحاصيل الزيتيه والتي تمميز بجوده مذهلة في السودان مما يسهل بيعه وتصديره للاسواق العالمية يمكنن زراعته في العديد من الولايات ثل القضارف واسنار وولايه النيل الازرق وشمال وجنوب كردفان </p>"
-    <center>
-  <img src="smsm.jpg" alt="hg" width="800" height="300">
-</center>
-  <hr style="font-size: 2px;">
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 30px 0;
+        }
 
+        .btn-container {
+            text-align: center;
+            margin: 30px 0;
+        }
 
-<h3 style="color: rgb(1, 57, 1); font-size: 30px; text-align: right;">زراعة الخضروات والفواكه</h3>
-<p style= "text-align:right;color: rgb(1, 27, 2);font-size:20px;">تعتبر زراعة الخضروات والفواكه من أهم المحاصيل الزراعية في السودان، حيث يتم زراعتها في مناطق مختلفة من البلاد. وتتميز هذه المناطق بتربة خصبة ومناخ مناسب لنمو الخضروات والفواكه. ومن بين أهم المناطق التي يتم فيها زراعة الخضروات والفواكه في السودان هي ولاية الجزيرة وولاية الخرطوم وولاية النيل الأبيض. وتعد هذه المناطق من أفضل الأماكن لزراعة الخضروات والفواكه بسبب توفر المياه والتربة الخصبة والظروف المناخية المناسبة.
-    <center>
-  <img src="fk.jpg" alt="hg" width="800" height="300">
-</center>
-<a href="index.html"><button style="background-color: rgb(6,75,19); color: rgb(221, 241, 220); padding: 10px 20px; border: none; border-radius: 5px;">back</button></a>
+        .btn-back {
+            background-color: rgb(6, 75, 19);
+            color: rgb(221, 241, 220);
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-text">
+            <span class="discover">Discover</span>
+            <span class="sudan">Sudan</span>
+        </div>
+        <img src="Flag_of_Sudan.svg.webp" alt="علم السودان" class="header-logo">
+    </div>
+
+    <div class="container">
+        <h1 class="main-title">الزراعة في السودان</h1>
+        <p>أفضل أنواع الاستثمار في السودان هو الاستثمار في الزراعة، حيث يتميز السودان بتنوعه المناخي وأراضيه الخصبة التي تصلح لزراعة العديد من المحاصيل المطلوبة عالمياً. توضح هذه الصفحة أهم هذه المحاصيل وأفضل أماكن لزراعتها في السودان لمساعدة المستثمرين الراغبين في الاستثمار في الزراعة السودانية والحصول على أفضل الخيارات.</p>
+
+        <img src="zra2.jpg" alt="الزراعة في السودان" class="responsive-img">
+        <hr>
+
+        <h3 class="section-title">زراعة القمح</h3>
+        <p>يمكن القول بأن القمح من أهم المحاصيل الزراعية التي تستهلك بكميات كبيرة عالمياً، وبذلك يعد من أفضل أنواع الاستثمار بسبب الطلب العالي عليه. كما يمكن زراعته بسهولة في السودان حيث تتوفر البيئة اللازمة والأراضي الخصبة لزراعته، بالأخص في ولايات مثل القضارف، ولاية النيل الأبيض، وولاية كسلا.</p>
+        <img src="3mk.jpg" alt="زراعة القمح" class="responsive-img">
+        <hr>
+
+        <h3 class="section-title">زراعة الذرة</h3>
+        <p>الذرة ركيزة أساسية في استهلاك الإنسان عالمياً، حيث أصبحت محصولاً لا يمكن الاستغناء عنه في العديد من الصناعات الغذائية. لذلك يعد من أفضل أنواع الاستثمار بسبب الطلب العالي عليه، ويمكن زراعته بسهولة في السودان لتوفير البيئة اللازمة والأراضي الخصبة، بالأخص في ولايات مثل القضارف، ولاية النيل الأبيض، وولاية كسلا.</p>
+        <img src="zra.jpg" alt="زراعة الذرة" class="responsive-img">
+        <hr>
+
+        <h3 class="section-title">زراعة القطن</h3>
+        <p>القطن أو كما يسمى عالمياً بـ "الذهب الأبيض" هو من أفضل المحاصيل التي يسهل زراعتها في السودان، وتتميز بطلب عالي داخل السودان وخارجه مما يجعله مصدراً مهماً للعملة الصعبة. ويمكن زراعته بسهولة في ولايات مثل الجزيرة وولاية سنار.</p>
+        <img src="ktn.jpg" alt="زراعة القطن" class="responsive-img">
+        <hr>
+
+        <h3 class="section-title">زراعة السمسم</h3>
+        <p>يعد من أفضل المحاصيل الزيتية التي تتميز بجودة مذهلة في السودان، مما يسهل بيعه وتصديره للأسواق العالمية. يمكن زراعته في العديد من الولايات مثل القضارف، سنار، ولاية النيل الأزرق، وشمال وجنوب كردفان.</p>
+        <img src="smsm.jpg" alt="زراعة السمسم" class="responsive-img">
+        <hr>
+
+        <h3 class="section-title">زراعة الخضروات والفواكه</h3>
+        <p>تعتبر زراعة الخضروات والفواكه من أهم القطاعات الزراعية في السودان، حيث يتم زراعتها في مناطق مختلفة تتميز بتربة خصبة ومناخ مناسب. ومن أهم المناطق ولاية الجزيرة، ولاية الخرطوم، وولاية النيل الأبيض، وذلك لتوفّر المياه والتربة الخصبة والظروف المناخية المناسبة.</p>
+        <img src="fk.jpg" alt="زراعة الخضروات والفواكه" class="responsive-img">
+
+        <div class="btn-container">
+            <a href="index.html" class="btn-back">Back</a>
+        </div>
+    </div>
+
 </body>
 </html>
